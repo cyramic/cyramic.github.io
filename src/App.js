@@ -68,7 +68,7 @@ function App() {
                     </Grid>
 
                     <Grid item xs={9}>
-                        <Details summary="Assigned to Worker">
+                        <Details summary="Assigned to Worker" open="true">
                             <b>June 11, 2021</b> - Your request is with David Peterson at 07639281650.
                             You do not need to do anything, they'll contact you.
                         </Details>

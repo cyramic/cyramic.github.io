@@ -30,8 +30,8 @@ function App() {
         <Grid container justify="center" direction="row" alignItems="stretch">
             <Grid item xs={3}></Grid>
             <Grid item xs={6}>
-                <Heading>My Request</Heading>
-                <div>
+                <Heading className="App-header-text">My Request</Heading>
+                <div className="Description-text">
                     We look to perform an assessment for you within 6 weeks, and we prioritise your request based on
                     how urgent your situation is. If there is a significant change to your circumstances please
                     contact the council.
@@ -74,7 +74,7 @@ function App() {
                         </Details>
                     </Grid>
                     <Grid item xs={3}>
-                        <Tag>In Progress</Tag>
+                        <Tag className="Tag-current">In Progress</Tag>
                     </Grid>
 
                     <Grid item xs={12}>

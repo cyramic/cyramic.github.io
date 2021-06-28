@@ -8,11 +8,6 @@
   pointer-events: none;
 }
 
-.MainPage {
-    padding: '100px';
-    margin: '100px';
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,7 +22,20 @@
   justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
+}
+
+.App-header-text {
+    margin-bottom: 5px;
+}
+
+.Description-text {
+    margin-bottom: 20px;
+}
+
+.Tag-current {
+    background-color: #d4e2f0 !important;
+    color: #295a85 !important;
 }
 
 .App-navbar {
